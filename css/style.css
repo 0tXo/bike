@@ -1,0 +1,49 @@
+/*header*/
+.header{
+	position: fixed;
+	width: 100%;
+	background-color: #00e6b8
+;
+}
+.logo{
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: middle;
+	color: white;
+}
+.nav{
+	display: inline-block;
+	margin-left: 400px;
+}
+.nav-li{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 19px;;
+    margin-right: 50px;
+}
+
+.navi{
+	color: black;
+	padding-right: 15px;
+}
+/*body*/
+body{
+	background-image: url("../images/bk3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*section*/
+.section{
+	position: fixed;
+	top: 570px;
+	left: 1220px;
+}
+.hey{
+	color: black;
+	margin-top: 900px;
+}
+.inst{
+	position: fixed;
+	top: 570px;
+	left: 1120px;
+}
