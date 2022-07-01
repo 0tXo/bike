@@ -1,3 +1,8 @@
+body{
+	background-image: url("../images/bk3.jpg");
+	background-size: 1350px 900px;
+	background-repeat: no-repeat;
+}
 /*header*/
 .header{
 	position: fixed;
@@ -24,26 +29,54 @@
 
 .navi{
 	color: black;
-	padding-right: 15px;
-}
-/*body*/
-body{
-	background-image: url("../images/bk3.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	padding: 5px;
+
+	transition-property: all;
+	transition-duration: 0.3s;
 }
 /*section*/
-.section{
+.fb {
 	position: fixed;
 	top: 570px;
 	left: 1220px;
 }
-.hey{
-	color: black;
-	margin-top: 900px;
-}
-.inst{
+.inst {
 	position: fixed;
 	top: 570px;
 	left: 1120px;
+}
+.animation {
+	background-color: grey;
+	height: 70px;
+	width: 1500px;
+	margin-top: 80px;
+	position: relative;
+}
+.sale {
+	font-size: 60px;
+    animation: reklama 5s infinite;
+    position: absolute;
+    color: red;
+}
+.walcome{
+	color: white;
+	margin-top: 200px;
+	margin-left: 200px;
+	font-size: 55px;
+}
+.helo{
+	margin-top: 1000px;
+}
+
+/*hover*/
+.navi:hover {
+    background-color: black;
+    border-color: gray;
+    border-radius: 15px;
+    border-width: 0.5px;
+    color: white;
+}
+@keyframes reklama {
+    0% {left: -100px;}
+    100% {left: 1400px;}
 }
