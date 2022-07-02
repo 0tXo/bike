@@ -1,14 +1,15 @@
 body{
 	background-image: url("../images/bk3.jpg");
-	background-size: 1350px 900px;
+	background-size: 1350px 800px;
 	background-repeat: no-repeat;
 }
 /*header*/
 .header{
 	position: fixed;
 	width: 100%;
-	background-color: #00e6b8
-;
+	background-color: #00b386;
+	padding-top: 5px;
+	padding-bottom: 7px;
 }
 .logo{
 	display: inline-block;
@@ -24,7 +25,7 @@ body{
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 19px;;
-    margin-right: 50px;
+    margin-right: 45px;
 }
 
 .navi{
@@ -34,29 +35,34 @@ body{
 	transition-property: all;
 	transition-duration: 0.3s;
 }
+.icon1{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-left: 190px;
+}
 /*section*/
 .fb {
 	position: fixed;
-	top: 570px;
+	top: 550px;
 	left: 1220px;
 }
 .inst {
 	position: fixed;
-	top: 570px;
+	top: 550px;
 	left: 1120px;
 }
 .animation {
-	background-color: grey;
-	height: 70px;
-	width: 1500px;
-	margin-top: 80px;
+	background-color: black;
+	height: 40px;
+	width: 100%px;
 	position: relative;
 }
 .sale {
-	font-size: 60px;
-    animation: reklama 5s infinite;
+	font-size: 40px;
+    animation: reklama 5s infinite alternate;
     position: absolute;
-    color: red;
+    color: grey;
 }
 .walcome{
 	color: white;
@@ -64,10 +70,43 @@ body{
 	margin-left: 200px;
 	font-size: 55px;
 }
-.helo{
-	margin-top: 1000px;
+/*footer*/
+.footer{
+	margin-top: 490px;
+	height: 300px;
+	width: 100%;
+	background-color: #343a40;
+	position: absolute;
 }
-
+.social-block{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	/*background-color: black;*/
+	margin-left: 240px;
+	margin-top: 80px;
+}
+.media{
+	margin-bottom: 14px;
+	margin-left: 22px;
+	position: relative;
+	font-size: 15px;
+	color: white;
+}
+.ft-fb{
+    font-size: 17px;
+    color:#1a1a1a;
+}
+.soc{
+	padding-bottom: 5px;
+    margin-left: 22px;
+    margin-bottom: 3px;
+}
+/*profile page*/
+.pf-body{
+	background-image: none;
+	background-color: gray;
+}
 /*hover*/
 .navi:hover {
     background-color: black;
@@ -77,6 +116,6 @@ body{
     color: white;
 }
 @keyframes reklama {
-    0% {left: -100px;}
-    100% {left: 1400px;}
+    0% {left: 0px;}
+    100% {left: 1200px;}
 }
