@@ -1,6 +1,6 @@
 body{
 	background-image: url("../images/bk3.jpg");
-	background-size: 1350px 800px;
+	background-size: 1350px 840px;
 	background-repeat: no-repeat;
 }
 /*header*/
@@ -66,18 +66,38 @@ body{
 }
 .walcome{
 	color: white;
-	margin-top: 200px;
-	margin-left: 200px;
-	font-size: 55px;
+	margin-top: 150px;
+	margin-left: 170px;
+	font-size: 50px;
+	text-shadow: 4px 4px red;
+}
+.best{
+	color: white;
+	margin-left: 340px;
+	font-size: 50px;
+	text-shadow: 4px 4px red;
+}
+.online{
+	color: white;
+	margin-left: 410px;
+	font-size: 50px;
+	text-shadow: 4px 4px red;
+}
+.shop{
+	color: white;
+	margin-left: 530px;
+	font-size: 50px;
+	text-shadow: 4px 4px red;
 }
 /*footer*/
 .footer{
-	margin-top: 490px;
+	margin-top: 435px;
 	height: 300px;
 	width: 100%;
 	background-color: #343a40;
 	position: absolute;
 }
+/*social-media*/
 .social-block{
 	height: 200px;
 	width: 200px;
@@ -90,7 +110,7 @@ body{
 	margin-bottom: 14px;
 	margin-left: 22px;
 	position: relative;
-	font-size: 15px;
+	font-size: 17px;
 	color: white;
 }
 .ft-fb{
@@ -98,9 +118,70 @@ body{
     color:#1a1a1a;
 }
 .soc{
-	padding-bottom: 5px;
+	padding-bottom: 7px;
     margin-left: 22px;
     margin-bottom: 3px;
+}
+/*contact us*/
+.contact-block{
+	margin-top: 80px;
+	margin-left: 550px;
+	height: 200px;
+	width: 250px;
+	/*background-color: black;*/
+	position: absolute;
+}
+.contact{
+	color: white;
+	font-size: 17px;
+	margin-bottom: 14px;
+}
+.contact-li{
+	padding-bottom: 8px;
+}
+.con-li{
+	color: #1a1a1a;
+	position: relative;
+	font-size: 17px;
+}
+/*by otxo*/
+.media-icon{
+	margin-top: 80px;
+	height: 200px;
+	width: 300px;
+	margin-left: 850px;
+	/*background-color: black;*/
+	position: absolute;
+}
+.otxo{
+	color: white;
+	margin-left: 50px;
+	font-size: 18px;
+}
+.insticon{
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+	margin-top: 30px;
+	display: inline-block;
+	position: relative;
+}
+.fbicon{
+	height: 50px;
+	width: 50px;
+	margin-left: 30px;
+	margin-top: 30px;
+	display: inline-block;
+	position: relative;
+
+}
+.folow{
+	display: inline-block;
+}
+.gmail{
+	height: 50px;
+	width: 50px;
+	margin-left: 30px;
 }
 /*profile page*/
 .pf-body{
@@ -117,5 +198,10 @@ body{
 }
 @keyframes reklama {
     0% {left: 0px;}
+    35% {color: red;}
+    75% { color: white;}
     100% {left: 1200px;}
+}
+.ft-fb:hover {
+	text-decoration: underline;
 }
