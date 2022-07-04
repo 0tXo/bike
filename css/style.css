@@ -3,6 +3,29 @@ body{
 	background-size: 1350px 840px;
 	background-repeat: no-repeat;
 }
+
+/*reg-auth*/
+.reg-auth{
+	height: 30px;
+	width: 150px;
+	background-color: blue;
+	margin-bottom: 10px;
+	margin-left: 1150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 10px;
+	font-size: 18px;
+}
+.sign{
+	color: white;
+}
+.dashoreba{
+    font-size: 20px;
+    color: black;
+}
+
 /*header*/
 .header{
 	position: fixed;
@@ -41,6 +64,7 @@ body{
 	display: inline-block;
 	margin-left: 190px;
 }
+
 /*section*/
 .fb {
 	position: fixed;
@@ -64,9 +88,11 @@ body{
     position: absolute;
     color: grey;
 }
+
+/*title*/
 .walcome{
 	color: white;
-	margin-top: 150px;
+	margin-top: 165px;
 	margin-left: 170px;
 	font-size: 50px;
 	text-shadow: 4px 4px red;
@@ -89,14 +115,23 @@ body{
 	font-size: 50px;
 	text-shadow: 4px 4px red;
 }
+
 /*footer*/
 .footer{
-	margin-top: 435px;
+	margin-top: 430px;
 	height: 300px;
 	width: 100%;
 	background-color: #343a40;
 	position: absolute;
 }
+.footer-pf{
+	margin-top: 160px;
+	height: 300px;
+	width: 100%;
+	background-color: #343a40;
+	position: absolute;
+}
+
 /*social-media*/
 .social-block{
 	height: 200px;
@@ -122,13 +157,13 @@ body{
     margin-left: 22px;
     margin-bottom: 3px;
 }
+
 /*contact us*/
 .contact-block{
 	margin-top: 80px;
 	margin-left: 550px;
 	height: 200px;
 	width: 250px;
-	/*background-color: black;*/
 	position: absolute;
 }
 .contact{
@@ -144,13 +179,13 @@ body{
 	position: relative;
 	font-size: 17px;
 }
+
 /*by otxo*/
 .media-icon{
 	margin-top: 80px;
 	height: 200px;
 	width: 300px;
 	margin-left: 850px;
-	/*background-color: black;*/
 	position: absolute;
 }
 .otxo{
@@ -173,7 +208,6 @@ body{
 	margin-top: 30px;
 	display: inline-block;
 	position: relative;
-
 }
 .folow{
 	display: inline-block;
@@ -183,11 +217,138 @@ body{
 	width: 50px;
 	margin-left: 30px;
 }
+
 /*profile page*/
 .pf-body{
+	background-color:#009999
+;
 	background-image: none;
-	background-color: gray;
 }
+.profile-container{
+	height: 600px;
+	width: 1300px;
+	/*background-color: black;*/
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/*container1*/
+.container-1{
+	height: 350px;
+	width: 570px;
+	background-color: #00ffff
+;
+	border-style: groove;
+	border-color: black;
+	border-width: 1px 1px;
+}
+.h-1{
+	font-size: 30px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.h-3{
+	font-size: 25;
+	color: #2f2f1e
+;
+	margin-left: 10px;
+}
+.p-text{
+	font-size: 19px;
+	margin-left: 10px;
+	color: grey;
+	margin-top: 35px;
+}
+.btn-1{
+	height: 50px;
+	width: 200px;
+	background-color: green;
+	margin-left: 300px;
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.reg-btn{
+	font-size: 15px;
+	color: white;
+}
+
+/*container2*/
+.container-2{
+	height: 350px;
+	width: 470px;
+	background-color: #00ffff;
+	border-style: groove;
+	border-color: black;
+	border-width: 1px 1px;
+}
+.h-n1{
+	margin-top: 30px;
+	margin-left: 10px;
+	color: black;
+	font-size: 20px;
+}
+.h-n3{
+	color: grey;
+	font-size: 17px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.email{
+	margin-left: 10px;
+	color: black;
+	font-size: 21px;
+}
+.email-box{
+	margin-top: 30px;
+}
+.email-input{
+	display: block;
+	margin-left: 10px;
+	width: 300px;
+	font-size: 14px;
+	height: 25px;
+	background-color: #80ffff
+;
+	border-width: 0.1px;
+}
+.pass{
+	margin-left: 10px;
+	color: black;
+	font-size: 21px;
+}
+.pass-input{
+	display: block;
+	margin-left: 10px;
+	font-size: 14px;
+	width: 300px;
+	height: 25px;
+	background-color: #80ffff;
+	border-width: 0.1px;
+}
+.pass-box{
+	margin-top: 20px;
+}
+.login-btn{
+	font-size: 18px;
+	color: white;
+}
+.btn-2{
+	height: 50px;
+	width: 180px;
+	background-color: green;
+	margin-left: 230px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
 /*hover*/
 .navi:hover {
     background-color: black;
@@ -196,12 +357,15 @@ body{
     border-width: 0.5px;
     color: white;
 }
-@keyframes reklama {
-    0% {left: 0px;}
-    35% {color: red;}
-    75% { color: white;}
-    100% {left: 1200px;}
-}
 .ft-fb:hover {
 	text-decoration: underline;
+}
+.sign:hover {
+     color: red;
+}
+.reg-btn:hover {
+	color: black;
+}
+.login-btn:hover {
+	color: black;
 }
